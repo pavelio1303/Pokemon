@@ -39,6 +39,8 @@ print(nombrePoke1 + " VS " + nombrePoke2 + " ¡Que comience el combate!")
 
 # Ejercicio 2 prueba Pokemon:
 
+## poner --> ganador = nombrePoke1 y a continuación hacerlo con variables. 
+
 if tipoPoke1 == tipoPoke2 and nivelpoke1 >= nivelpoke2:
     print(f"¡Gana {nombrePoke1}!")
 elif tipoPoke1 == tipoPoke2 and nivelpoke1 < nivelpoke2:
@@ -53,7 +55,6 @@ elif tipoPoke2 == "Fuego" and nivelpoke1 - nivelpoke2 < 10 :
 else:
     print(f"¡Gana {nombrePoke1}!")
 
-##ganador = nombrePoke1
 
 # Ejercicio 3 prueba Pokemon:
 
